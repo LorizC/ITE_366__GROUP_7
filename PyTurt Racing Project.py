@@ -22,3 +22,51 @@ for i in range(2):
     turtle.right(90)
 turtle.endfill()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+turtle1 = Turtle()
+turtle1.speed(0)
+turtle1.color('red')
+turtle1.shape('turtle')
+turtle1.penup()
+turtle1.goto(-250, 100)
+turtle1.pendown()
+
+turtle2 = Turtle()
+turtle2.speed(0)
+turtle2.color('blue')
+turtle2.shape('turtle')
+turtle2.penup()
+turtle2.goto(-250, 35)#50 65
+turtle2.pendown()
+
+turtle3 = Turtle()
+turtle3.speed(0)
+turtle3.color('pink')
+turtle3.shape('turtle')
+turtle3.penup()
+turtle3.goto(-250, -35)#0 65
+turtle3.pendown()
+
+turtle4 = Turtle()
+turtle4.speed(0)
+turtle4.color('purple')
+turtle4.shape('turtle')
+turtle4.penup()
+turtle4.goto(-250, -100)#50
+turtle4.pendown()
+
