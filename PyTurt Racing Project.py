@@ -70,3 +70,49 @@ turtle4.penup()
 turtle4.goto(-250, -100)#50
 turtle4.pendown()
 
+t1=0
+t2=0
+t3=0
+t4=0
+
+for i in range(-180):
+    k = randint(1,5)
+    l = randint(1, 5)
+    m = randint(1, 5)
+    n = randint(1, 5)
+    turtle1.forward(k)
+    turtle2.forward(l)
+    turtle3.forward(m)
+    turtle4.forward(n)
+
+    t1+=k
+    t2+=l
+    t3+=m
+    t4+=n
+
+    if t1>=480:
+        turtle1.goto(0, -120)
+        turtle.goto(0,-150)
+        turtle.write("Winner is Turtle 1",font=("Arial", 18))
+        break
+        
+    elif t2>=480:
+        turtle2.goto(0, -120)
+        turtle.goto(0,-150)
+        turtle.write("Winner is Turtle 2",font=("Arial", 18))
+        break
+        
+    elif t3>=480:
+        turtle3.goto(0, -120)
+        turtle.goto(0,-150)
+        turtle.write("Winner is Turtle 3",font=("Arial", 18))
+        break
+        
+    elif t4>=480:
+        turtle4.goto(0, -120)
+        turtle.goto(0,-150)
+        turtle.write("Winner is Turtle 4",font=("Arial", 18))
+        break
+
+turtle.hideturtle()
+turtle.done()
