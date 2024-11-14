@@ -1,5 +1,7 @@
 # PyTurt Racing Project
-By
-# PyNebula TechX
+# "PyNebula TechX"
+Group Leader: Alcaide, Eljohn Dayrit
+
+
 
 
