@@ -1,6 +1,6 @@
 import turtle # turtle.bgcolor() turtle.speed()
 from turtle import * #bgcolor() speed()
-from random import radiant
+from random import radint
 
 window=turtle.Screen()
 window.title('TURTLE RACE GAME')
@@ -22,21 +22,21 @@ for i in range(2):
     turtle.right(90)
 turtle.endfill()
 
+stamp_size=20
+square_size=15
+finish_line=200
+#Race set up/Finish Line
+turtle.color('black')
+turtle.shape('square')
+turtle.penup()
 
+for i in range(10):
+    turtle.setpos(finish_line,(150-(i*square_size*2)))
+    turtle.stamp()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+for j in range(10):
+    turtle.setpos(finish_line+square_size,((150-square_size)-(j*square_size*2)))
+    turtle.stamp()
 
 turtle1 = Turtle()
 turtle1.speed(0)
