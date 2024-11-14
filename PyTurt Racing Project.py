@@ -75,7 +75,7 @@ t2=0
 t3=0
 t4=0
 
-for i in range(-180):
+for i in range(180):
     k = randint(1,5)
     l = randint(1, 5)
     m = randint(1, 5)
