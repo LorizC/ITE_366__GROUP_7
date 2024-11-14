@@ -1,6 +1,6 @@
 import turtle # turtle.bgcolor() turtle.speed()
 from turtle import * #bgcolor() speed()
-from random import radint
+from random import randint
 
 window=turtle.Screen()
 window.title('TURTLE RACE GAME')
