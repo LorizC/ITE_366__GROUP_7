@@ -20,7 +20,7 @@ for i in range(2):
     turtle.right(90)
     turtle.forward(300)
     turtle.right(90)
-turtle.endfill()
+turtle.end_fill()
 
 stamp_size=20
 square_size=15
