@@ -3,7 +3,7 @@ from turtle import * #bgcolor() speed()
 from random import randint
 
 window=turtle.Screen()
-window.title('TURTLE RACE GAME')
+window.title('PyTurt Racing')
 
 turtle.bgcolor('green')
 turtle.speed(0)
