@@ -91,24 +91,28 @@ for i in range(180):
     t4+=n
 
     if t1>=480:
+        turtle1.penup()
         turtle1.goto(0, -120)
         turtle.goto(0,-150)
         turtle.write("Winner is Turtle 1",font=("Arial", 18))
         break
         
     elif t2>=480:
+        turtle2.penup()
         turtle2.goto(0, -120)
         turtle.goto(0,-150)
         turtle.write("Winner is Turtle 2",font=("Arial", 18))
         break
         
     elif t3>=480:
+        turtle3.penup()
         turtle3.goto(0, -120)
         turtle.goto(0,-150)
         turtle.write("Winner is Turtle 3",font=("Arial", 18))
         break
         
     elif t4>=480:
+        turtle4.penup()
         turtle4.goto(0, -120)
         turtle.goto(0,-150)
         turtle.write("Winner is Turtle 4",font=("Arial", 18))
